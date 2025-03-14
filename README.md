@@ -1,6 +1,6 @@
-#### (Tradução em português logo abaixo/Translation in Portuguese right below)
+#### (Translation in Portuguese right below/Tradução em português logo abaixo)
 
-# Studying Git and GitHub
+# Studying Git and GitHub (English/Inglês)
 
 ## Why?
 Git is a distributed version control system used to track changes in the source code during software development. You should learn it because it allows for efficient collaboration on projects, keeps a history of changes, helps resolve conflicts, and is essential for working with tools like GitHub. For example, imagine you're writing a book and want to save each version of the text as you make changes. Git is like an "automatic saver" that stores all versions of your work, allowing you to revert to any previous point if something goes wrong. Additionally, if multiple people are working on the same book, Git helps merge everyone’s changes without messing up the text. That’s why learning Git is important: it helps organize and protect your work, especially when collaborating with others.
@@ -69,9 +69,9 @@ GitHub is an online platform that uses Git as a foundation to host and manage so
 - Git is superior for being fast, distributed, and flexible.
 - GitHub is the most used because of its large community, Git integration, and additional tools that facilitate collaboration.
   
-___
 
-# Estudando Git e GitHub
+
+# Estudando Git e GitHub (Portuguese(BR)/Português(BR))
 
 ## Por quê?
 O Git é um sistema de controle de versão distribuído, usado para rastrear mudanças no código-fonte durante o desenvolvimento de software. Você deve aprendê-lo porque ele permite colaboração eficiente em projetos, mantém um histórico de alterações, facilita a resolução de conflitos e é essencial para trabalhar com ferramentas como o GitHub. Exemplificando, Imagine que você está escrevendo um livro e quer guardar cada versão do texto à medida que faz alterações. O Git é como um "salvador automático" que guarda todas as versões do seu trabalho, permitindo que você volte a qualquer ponto anterior se algo der errado. Além disso, se várias pessoas estiverem trabalhando no mesmo livro, o Git ajuda a juntar as mudanças de todos sem bagunçar o texto. Por isso, aprender Git é importante: ele ajuda a organizar e proteger seu trabalho, especialmente quando você está colaborando com outras pessoas.
