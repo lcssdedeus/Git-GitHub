@@ -68,6 +68,7 @@ GitHub is an online platform that uses Git as a foundation to host and manage so
 **Summary:**
 - Git is superior for being fast, distributed, and flexible.
 - GitHub is the most used because of its large community, Git integration, and additional tools that facilitate collaboration.
+  
 ___
 
 # Estudando Git e GitHub
