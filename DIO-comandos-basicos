@@ -1,0 +1,252 @@
+# Guia Completo: Comandos Básicos do Git
+
+## Configuração Inicial: `git config`
+
+Antes de começar a usar o Git, é essencial configurar suas credenciais. Isso garante que seus commits sejam corretamente identificados.
+
+```bash
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"
+```
+
+Para verificar as configurações atuais:
+
+```bash
+git config --list
+```
+
+Se precisar definir configurações para um repositório específico, remova o `--global`.
+
+---
+
+## Inicializar um Repositório: `git init`
+
+Este comando cria um novo repositório Git em um diretório.
+
+```bash
+git init
+```
+
+Após executar, o diretório será transformado em um repositório Git e conterá uma pasta oculta `.git`.
+
+---
+
+## Adicionar Arquivos ao Controle de Versão: `git add`
+
+Para adicionar arquivos ao _staging area_, onde ficam preparados para o commit.
+
+```bash
+git add arquivo.txt
+```
+
+Para adicionar **todos os arquivos** modificados:
+
+```bash
+git add .
+```
+
+Isso inclui novos arquivos, modificados e deletados.
+
+---
+
+## Criar um Commit: `git commit`
+
+Registra as mudanças adicionadas com `git add`.
+
+```bash
+git commit -m "Mensagem descritiva do commit"
+```
+
+Para adicionar arquivos e fazer o commit em um único comando:
+
+```bash
+git commit -am "Mensagem do commit"
+```
+
+> **Atenção:** O `-am` só funciona para arquivos já versionados.
+
+---
+
+## Verificar o Status do Repositório: `git status`
+
+Mostra o estado atual do repositório, como arquivos modificados e não adicionados.
+
+```bash
+git status
+```
+
+---
+
+## Visualizar o Histórico de Commits: `git log`
+
+Lista os commits do repositório.
+
+```bash
+git log
+```
+
+Para uma versão mais compacta:
+
+```bash
+git log --oneline --graph --all
+```
+
+---
+
+## Comparar Alterações: `git diff`
+
+Mostra as diferenças entre arquivos modificados e a última versão commitada.
+
+```bash
+git diff
+```
+
+Para ver as diferenças entre commits específicos:
+
+```bash
+git diff commit1 commit2
+```
+
+---
+
+## Criar e Alternar entre Branches: `git branch` e `git checkout`
+
+Criar uma nova branch:
+
+```bash
+git branch nome-da-branch
+```
+
+Trocar para outra branch:
+
+```bash
+git checkout nome-da-branch
+```
+
+Criar e mudar para a nova branch ao mesmo tempo:
+
+```bash
+git checkout -b nome-da-branch
+```
+
+No Git moderno (>=2.23), pode-se usar:
+
+```bash
+git switch nome-da-branch
+```
+
+Para criar e trocar ao mesmo tempo:
+
+```bash
+git switch -c nome-da-branch
+```
+
+---
+
+## Mesclar Alterações: `git merge`
+
+Funde uma branch na branch atual.
+
+```bash
+git merge nome-da-branch
+```
+
+---
+
+## Remover Arquivos do Controle de Versão: `git rm`
+
+Para remover um arquivo e registrar a remoção:
+
+```bash
+git rm arquivo.txt
+```
+
+Para manter o arquivo no diretório mas removê-lo do Git:
+
+```bash
+git rm --cached arquivo.txt
+```
+
+---
+
+## Clonar um Repositório Remoto: `git clone`
+
+Baixa um repositório remoto para sua máquina local.
+
+```bash
+git clone URL-do-repositório
+```
+
+Exemplo para clonar um repositório do GitHub:
+
+```bash
+git clone https://github.com/usuario/repo.git
+```
+
+---
+
+## Enviar Alterações para um Repositório Remoto: `git push`
+
+Envia commits para um repositório remoto.
+
+```bash
+git push origin nome-da-branch
+```
+
+Se for a primeira vez enviando a branch:
+
+```bash
+git push -u origin nome-da-branch
+```
+
+---
+
+## Trazer Atualizações do Repositório Remoto: `git pull`
+
+Atualiza o repositório local com mudanças do repositório remoto.
+
+```bash
+git pull origin nome-da-branch
+```
+
+---
+
+## Restaurar Arquivos Modificados: `git checkout --`
+
+Descarta alterações locais em um arquivo:
+
+```bash
+git checkout -- arquivo.txt
+```
+
+Para restaurar todos os arquivos:
+
+```bash
+git checkout -- .
+```
+
+---
+
+## Reverter um Commit: `git revert` e `git reset`
+
+Para desfazer um commit sem apagar o histórico:
+
+```bash
+git revert HEAD
+```
+
+Para apagar completamente commits anteriores:
+
+```bash
+git reset --hard commit-hash
+```
+
+> **Atenção:** `reset --hard` remove commits permanentemente.
+
+---
+
+## Conclusão
+
+Esses são os comandos essenciais para trabalhar com o Git no dia a dia. Pratique cada um deles para entender seu funcionamento e como aplicá-los corretamente no versionamento de código.
+
+Para mais detalhes, consulte a [documentação oficial do Git](https://git-scm.com/doc).
