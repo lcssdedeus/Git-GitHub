@@ -1,0 +1,9 @@
+Testes de comando e uso do SHA-1:
+
+O comando openssl sha1 texto.txt gera um hash SHA-1 único do conteúdo do arquivo texto.txt, representado por uma sequência hexadecimal de 40 caracteres. Após uma modificação no arquivo (por exemplo, trocar uma vírgula por um ponto, exemplo esse que gerou os códigos abaixo, uma simples alteração você observa a diferença de código), a execução do mesmo comando gera um novo hash diferente. Quando o arquivo é revertido ao seu estado original, o comando gera novamente o mesmo hash do início, demonstrando que o hash é sensível a alterações no conteúdo do arquivo, mas retorna ao valor original quando o conteúdo é restaurado.
+
+e643f18124e9666b930e8080e350cd9754b0a0f9
+81b99bf93a5875d4b9a692d3a61de02a0a95e4f6
+e643f18124e9666b930e8080e350cd9754b0a0f9
+
+A modificação acima foi do arquivo texto.txt
