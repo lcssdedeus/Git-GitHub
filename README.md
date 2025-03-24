@@ -2,6 +2,8 @@
 
 **obs.:** O presente repositório destina-se ao meu estudo pessoal de Git e GitHub nas mais diversas plataformas, sejam elas, textos, artigos, vídeos, cursos e livros. Abaixo segue um breve resumo de toda a gama de aprendizado, não irei constar comandos, instalação entre outros, até porque aqui não possuo o intuido didático para terceiros, e sim apenas uma organização pessoal do meu aprendizado, até porque na área de TI se aprende fazendo, errando corrigindo e aprendendo, nada é fácil, mas persistir 1% todos os dias, fará com que se alcance o tão sonhado objetivo.
 
+- 20/03/2025 - Realizei o curso da DIO de Introdução ao Git e ao GitHub com o profº Otavio Reis Perkles;
+
 ## Por quê?
 
 O Git é um sistema de controle de versão distribuído, usado para rastrear mudanças no código-fonte durante o desenvolvimento de software. Você deve aprendê-lo porque ele permite colaboração eficiente em projetos, mantém um histórico de alterações, facilita a resolução de conflitos e é essencial para trabalhar com ferramentas como o GitHub. Exemplificando, Imagine que você está escrevendo um livro e quer guardar cada versão do texto à medida que faz alterações. O Git é como um "salvador automático" que guarda todas as versões do seu trabalho, permitindo que você volte a qualquer ponto anterior se algo der errado. Além disso, se várias pessoas estiverem trabalhando no mesmo livro, o Git ajuda a juntar as mudanças de todos sem bagunçar o texto. Por isso, aprender Git é importante: ele ajuda a organizar e proteger seu trabalho, especialmente quando você está colaborando com outras pessoas.
